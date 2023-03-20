@@ -1,0 +1,39 @@
+name: MoneyManager
+author: HWABAEG
+main: MoneyManager\MoneyManager
+version: B1
+api: [4.0.0]
+
+commands:
+  돈:
+   permission: money.true
+   description: 월드이동 관련 명령어
+  돈순위:
+   permission: moneyrank.true
+   description: 월드전투관련 명령어
+  돈보기:
+   permission: moneysee.true
+   description: 월드이동 관련 명령어
+  돈보내기:
+   permission: givemoney.true
+   description: 월드전투관련 명령어
+  돈지급:
+   permission: opgivemoney.true
+   description: 월드이동 관련 명령어
+  돈설정:
+   permission: setmoney.true
+   description: 월드전투관련 명령어
+
+permissions:
+  money.true:
+    default: true
+  moneyrank.true:
+    default: true
+  moneysee.true:
+    default: true
+  givemoney.true:
+    default: true
+  opgivemoney.true:
+    default: true
+  setmoney.true:
+    default: true
